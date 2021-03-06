@@ -39,6 +39,8 @@ Project targets **.NET Standard 1.1** and **.NET Framework 4.5** at minimum.
 This project is referred to as the core package and is always required for developing Telegram bots.
 There are extension packages that you can include in your bot projects for additional functionality:
 
+- [Telegram.Bot.CommandHandler]
+- [Telegram.Bot.InteractivityHelper]
 - [Telegram.Bot.Extensions.LoginWidget]
 - [Telegram.Bot.Extensions.Passport]
 
@@ -67,3 +69,5 @@ use it in your own bot projects.
 [the Quickstart guide]: https://telegrambots.github.io/book/1/quickstart.html
 [Telegram.Bot.Extensions.LoginWidget]: https://github.com/TelegramBots/Telegram.Bot.Extensions.LoginWidget
 [Telegram.Bot.Extensions.Passport]: https://github.com/TelegramBots/Telegram.Bot.Extensions.Passport
+[Telegram.Bot.CommandHandler]: https://github.com/AliBdeir/Telegram.Bot-Tools/tree/master/TelegramCommandHandler
+[Telegram.Bot.InteractivityHelper]: https://github.com/AliBdeir/Telegram.Bot-Tools/tree/master/TelegramInteractivityHelper
